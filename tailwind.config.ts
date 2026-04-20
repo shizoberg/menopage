@@ -9,7 +9,7 @@ export default {
       center: true,
       padding: "1.25rem",
       screens: {
-        "2xl": "1100px",
+        "2xl": "1080px",
       },
     },
     extend: {
@@ -26,7 +26,6 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
           medium: "hsl(var(--primary-medium))",
-          soft: "hsl(var(--primary-soft))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -52,6 +51,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        rose: {
+          DEFAULT: "hsl(var(--rose))",
+          light: "hsl(var(--rose-light))",
+        },
         sage: {
           DEFAULT: "hsl(var(--sage))",
           light: "hsl(var(--sage-light))",
@@ -64,6 +67,10 @@ export default {
         cream: {
           DEFAULT: "hsl(var(--cream))",
           2: "hsl(var(--cream-2))",
+          3: "hsl(var(--cream-3))",
+        },
+        plum: {
+          pale: "hsl(var(--plum-pale))",
         },
       },
       borderRadius: {
