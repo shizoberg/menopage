@@ -1,62 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Menopoz sayfası — Yeşil tema, yaşlı dostu büyük tipografi */
+/* Menopoz sayfası — Mor tema, yaşlı dostu büyük tipografi */
 
 @layer base {
   :root {
     --font-primary: 'Raleway', 'Helvetica Neue', system-ui, sans-serif;
 
-    --background: 90 30% 98%;
-    --foreground: 150 30% 12%;
+    --background: 0 0% 100%;
+    --foreground: 24 27% 9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 150 30% 12%;
+    --card-foreground: 24 27% 9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 150 30% 12%;
+    --popover-foreground: 24 27% 9%;
 
-    /* Derin yeşil — primer */
-    --primary: 152 55% 22%;
-    --primary-foreground: 90 30% 98%;
-    --primary-medium: 152 45% 34%;
-    --primary-soft: 145 40% 90%;
+    /* Derin mor — primer */
+    --primary: 258 57% 26%;
+    --primary-foreground: 0 0% 100%;
+    --primary-medium: 258 47% 38%;
 
-    --secondary: 142 40% 94%;
-    --secondary-foreground: 152 55% 22%;
+    --secondary: 258 40% 94%;
+    --secondary-foreground: 258 57% 26%;
 
-    --muted: 140 20% 94%;
-    --muted-foreground: 150 12% 38%;
+    --muted: 33 20% 91%;
+    --muted-foreground: 24 7% 44%;
 
-    --accent: 142 40% 94%;
-    --accent-foreground: 152 55% 22%;
+    --accent: 258 40% 94%;
+    --accent-foreground: 258 57% 26%;
 
-    --destructive: 0 70% 45%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --sage: 145 35% 40%;
-    --sage-light: 145 45% 92%;
+    --rose: 349 42% 48%;
+    --rose-light: 349 82% 95%;
 
-    --amber: 35 75% 42%;
-    --amber-light: 35 75% 94%;
+    --sage: 155 42% 30%;
+    --sage-light: 155 42% 92%;
 
-    --star: 42 90% 55%;
+    --amber: 38 68% 41%;
+    --amber-light: 38 68% 93%;
 
-    --cream: 60 30% 96%;
-    --cream-2: 50 25% 93%;
+    --star: 44 90% 62%;
 
-    --border: 145 20% 88%;
-    --input: 145 20% 88%;
-    --ring: 152 55% 22%;
+    --cream: 33 20% 96%;
+    --cream-2: 33 20% 93%;
+    --cream-3: 33 15% 87%;
 
-    --radius: 0.75rem;
+    --plum-pale: 258 60% 97%;
 
-    --shadow-sm: 0 1px 4px hsla(150, 30%, 12%, 0.06);
-    --shadow-md: 0 6px 22px hsla(150, 30%, 12%, 0.10);
-    --shadow-lg: 0 10px 40px hsla(150, 30%, 12%, 0.14);
+    --border: 258 20% 92%;
+    --input: 258 20% 92%;
+    --ring: 258 57% 26%;
+
+    --radius: 0.5rem;
+
+    --shadow-sm: 0 1px 4px hsla(24, 27%, 9%, 0.06);
+    --shadow-md: 0 4px 20px hsla(24, 27%, 9%, 0.09);
+    --shadow-lg: 0 8px 40px hsla(24, 27%, 9%, 0.12);
   }
 }
 
